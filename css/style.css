@@ -179,21 +179,25 @@ article{
 }
 
 .bottom_section{
-  padding:5% 2%;
+  padding-top:5%;
+  padding-bottom:5%;
+  padding-left: 2%;
   background-color: white; 
 }
 
 .bottom_section p{
+  width: 35%;
   margin-top: 10px;
   font-size: x-large;
   float: left;
+  /* border: 1px solid red; */
 }
 
 .bottom_section #email{
-  margin-left: 30px;
+  /* margin-left: 6%; */
   margin-top: -6px;
   height: 59px;
-  width: 60%;
+  width: 55%;
   border:1px solid #343638;
   background-color: #F3F3F3;
 }
@@ -201,7 +205,7 @@ article{
 .bottom_section #submit{
   cursor: pointer;
   border:none;
-  padding: 2% 1%;
+  padding: 25px 1%;
   margin-left:-5px;
   color:white;
   background-color: #343638;
@@ -223,7 +227,7 @@ article{
 
 .last_news #email{
   height: 30px;
-  width: 220px;
+  width: 50%;
   border:1px solid #343638;
   background-color: #F3F3F3;
 }
