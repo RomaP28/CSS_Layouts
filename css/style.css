@@ -19,12 +19,12 @@ time, mark, audio, video {
 body{
   margin-left: auto;
   margin-right: auto;
-  width: 87%;
+  width: 100%;
+  min-width: 900px;
 }
 
 .header{
-  height: 100vh;
-  min-width: 900px;
+  height: 100%;
   text-align: center;
   color:white;
   background-repeat: no-repeat;
@@ -67,27 +67,26 @@ body{
 } 
 
 .main_sign{
-  margin-top: 16%;
-  margin-left: 3.5%;
+  margin-top: 14%;
   font-size: 4em;
   letter-spacing: 8px;
 }
 
 .main_sign span{
   font-size: 1.8em;
+
 }
 
 .brand{
-  margin-left: 3.5em;
-}
+    margin-bottom: 12%;
+} 
 
 button{
   border: 3px solid white;
   cursor: pointer;
-  margin-top: 14%;
-  margin-left: 3.5em;
   padding:1.4em 8em;
   background-color:  rgba(16,16,16,0.5);
+  margin-bottom: 12%;
 }
 
 button a{
@@ -137,9 +136,10 @@ article{
   justify-content: space-between;
 }
 
-
 .image_container{
   position: relative;
+  width:50%;
+  height:20%;
   color: white;
 }
 
@@ -152,6 +152,10 @@ article{
   bottom: 5px;
   background-color: rgba(0,0,0,0.3);  
   z-index: 1;
+}
+
+.image_container img{
+  width:100%;
 }
 
 .bottom-left {
@@ -173,7 +177,7 @@ article{
 }
 
 .text_content {
-  margin-top: 100px;
+  margin-top: 5%;
   text-align: center;
   width: 36%;
 }
@@ -186,7 +190,8 @@ article{
 }
 
 .bottom_section p{
-  width: 35%;
+  text-align: center;
+  width: 40%;
   margin-top: 10px;
   font-size: x-large;
   float: left;
@@ -197,7 +202,7 @@ article{
   /* margin-left: 6%; */
   margin-top: -6px;
   height: 59px;
-  width: 55%;
+  width: 50%;
   border:1px solid #343638;
   background-color: #F3F3F3;
 }
